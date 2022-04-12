@@ -14,7 +14,7 @@ describe('Generate data', () => {
         cy.get('#select-key-drop-age').select('any')
         cy.get('#btn-add-prop').click()
         cy.get('#btn-resCSV-data').click()
-        cy.get('#entries-input').type('10')
+        cy.get('#entries-input').type('15')
         cy.get('#btn-get-data').click()
         cy.get('#btn-arr-data').click()
         cy.get('#btn-download-data').click()

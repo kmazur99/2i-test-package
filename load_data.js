@@ -7,6 +7,7 @@ describe('Load data', () => {
 
     it('load users data', () => {
 
+        // Visit the page
         cy.visit('http://webdev.edinburghcollege.ac.uk/~HNCSOFTSA7/2i/')
 
         users.forEach(user => {
