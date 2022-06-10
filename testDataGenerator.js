@@ -72,7 +72,6 @@ describe('Test Data Generator', () => {
 
         cy.get('#btn-get-data').click()
         cy.contains('Error: No entries value specified')
-
     })
 
     it('Show an error message when entries field is empty', () => {
